@@ -105,7 +105,7 @@ on boot
     setprop ro.bt.bdaddr_path /sys/module/htc_bdaddress/parameters/bdaddress
 
 # symlink for HDMI
-    symlink /dev/graphics/fb1 /dev/graphics/hdmi
+    symlink /dev/graphics/ /sys/devices/virtual/graphics/
 
 # +HTC_RIL: from QCT Fusion
     mkdir /data/radio 0770 radio radio
