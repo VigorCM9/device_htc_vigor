@@ -4,6 +4,8 @@ on early-init
 on init
     export PATH /sbin
     export ANDROID_ROOT /system
+	#ENABLE IF BUILDING TWRP
+	#export LD_LIBRARY_PATH .:/sbin
     export ANDROID_DATA /data
     export EXTERNAL_STORAGE /sdcard
 
