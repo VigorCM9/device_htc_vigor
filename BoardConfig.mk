@@ -63,6 +63,7 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 TARGET_PREBUILT_RECOVERY_KERNEL := device/htc/vigor/kernel
 TARGET_RECOVERY_INITRC := device/htc/vigor/recovery/init.rc
+BOARD_CUSTOM_GRAPHICS  := device/htc/vigor/recovery/graphics.c
 
 # TWRP Recovery
 DEVICE_RESOLUTION := 720x1280
