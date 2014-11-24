@@ -118,6 +118,9 @@ media.a1026.enableA1026 = 0
 htc.audio.alt.enable = 0
 htc.audio.hac.enable = 0
 
+# bluetooth
+ro.bt.bdaddr_path=/sys/module/htc_bdaddress/parameters/bdaddress
+
 # wifi
 wifi.interface = wlan0
 
